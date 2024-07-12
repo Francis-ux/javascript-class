@@ -7,8 +7,8 @@ A value in JavaScript has a data type and it always of a certain type.For exampl
 // 3. Boolean
 // 4. Undefined
 // 5. Null
-// 6. Symbol
-// 7. BigInt
+// 6. BigInt
+// 7. Object and Symbol
 
 // Number
 /*
@@ -41,3 +41,53 @@ name = 'Jane';
 
 let calculation = 1 + 2;
 console.log(calculation);
+
+// In javascript there are 3 type of quotes
+// 1. Single quotes
+// 2. Double quotes
+// 3. Backticks
+
+// Single quotes
+let str = 'This is a string';
+console.log(str);
+
+// Double quotes
+let str2 = 'This is also a string';
+console.log(str2);
+
+// Backticks
+let str3 = `This is also a string`;
+console.log(str3);
+
+let firstName = 'John';
+let lastName = 'Doe';
+console.log(`My name is ${firstName} ${lastName}.`);
+console.log('My name is ' + firstName + ' ' + lastName + '.');
+
+// Boolean
+/*
+The boolean type has tow values true and false
+*/
+
+let acceptTermsAndConditions = true;
+acceptTermsAndConditions = false;
+console.log(acceptTermsAndConditions);
+
+// Null
+let age = null;
+console.log(age);
+
+// Undefined
+
+let class2024;
+
+console.log(class2024);
+
+// Object and Symbols
+
+let person = {
+  name: 'John',
+  age: 30,
+};
+
+console.log(person.name, typeof person.age);
