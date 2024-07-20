@@ -1,0 +1,20 @@
+Classwork Exercise: JavaScript Fundamentals
+
+# Exercise 1: Console and Comments
+1. Open your browser's developer tools (usually F12 or right-click > Inspect > Console tab).
+2. Write a single-line comment explaining what you understand by "console" in JavaScript.
+3. Write a multi-line comment detailing three advantages of using comments in your code.
+
+# Exercise 2: Variables and Data Types
+1. Declare a variable `name` and assign your name to it.
+2. Declare a variable `age` and assign your age as a number to it.
+3. Declare a variable `isStudent` and assign a boolean value indicating if you are currently a student.
+
+# Exercise 3: Stack, Heap, and Memory
+1. Explain in your own words the difference between stack and heap memory in JavaScript.
+2. Give an example of a variable that would be stored in stack memory and another that would be stored in heap memory.
+
+# Exercise 4: Type Conversion
+1. Declare a variable `numStr` and assign it the string value `"42"`.
+2. Convert `numStr` to a number and assign it to a new variable `num`.
+3. Display the type of `num` in the console to verify it's a number.

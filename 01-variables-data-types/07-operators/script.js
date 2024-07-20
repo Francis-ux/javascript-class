@@ -46,13 +46,21 @@ Greater than or equal to: >=
 Less than or equal to: <=
 Logical AND: &&
 Logical OR: ||
+
+4. Logical
+
+Logical operators are used to combine conditional statements.
+Examples of logical operators are:
+
+Logical NOT: !
+Logical AND: &&
+Logical OR: ||
+
+5. Bitwise
+
+Bitwise operators are used to perform bitwise operations on numbers.
+Examples of bitwise operators are:
+
+Bitwise AND: &
+Bitwise OR: |
 */
-
-let a = 10;
-let b = 5;
-
-if (a == b || a > b) {
-  console.log('Yes');
-}else{
-  console.log('No');
-}
