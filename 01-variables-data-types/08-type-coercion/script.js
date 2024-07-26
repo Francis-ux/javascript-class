@@ -2,11 +2,15 @@
 
 // Type coercion is the automatic conversion of one data type to another.
 
-// Coerced to a string
-x = 5 + '5';
-console.log(typeof x, x);
+// const value1 = '5';
+// const value2 = 6;
 
-// Coerced to a number
-x = 5 * '5';
-x = 7 + '5';
-console.log(typeof x, x)
+// let sum = Number(value1) + value2;
+
+// console.log(typeof sum, sum);
+
+const value1 = 10;
+const value2 = '5';
+
+let sum = value1 + value2;
+console.log(typeof sum, sum);
