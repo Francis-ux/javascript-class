@@ -12,4 +12,22 @@ x = numbers[0];
 
 x = numbers[0] + numbers[3];
 
+x = `My favorite fruit is an ${fruits[0]}`;
+
+x = numbers.length;
+
+// Reassign value
+fruits[2] = 'Banana';
+
+// Add value
+// fruits.length = 8;
+
+x = fruits;
+
+// Add value at the end
+fruits[fruits.length] = 'Kiwi';
+fruits[fruits.length] = 'Lemon';
+
+x = fruits;
+
 console.log(x);
