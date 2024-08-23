@@ -29,3 +29,5 @@ function add() {
 }
 
 add();
+
+// Read and study about global function scope,block scope and function scope
